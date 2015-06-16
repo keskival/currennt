@@ -1,3 +1,16 @@
+This is a fork of CURRENNT 0.2-rc1 from: http://sourceforge.net/projects/currennt/
+The original CURRENNT project was not maintained anymore and I couldn't get it to compile against a recent CUDA SDK.
+This fork requires CUDA compute capability of 3.0 or higher, because 1.3 compute capability was not compiling because of updated CUDA SDK headers anymore.
+The latest update of the original CURRENNT project was in 2014-12-10.
+
+All the thanks to the original authors: "feyben", Johannes "johber" Bergmann and Felix "weninger" Weninger!
+- http://sourceforge.net/u/feyben/profile/
+- http://sourceforge.net/u/johber/profile/
+- http://sourceforge.net/u/weninger/profile/
+
+Below is the original README:
+
+
 CURRENNT is written in C++/CUDA and runs on Windows and Linux. It requires a
 CUDA-capable graphics card with a compute capability of 1.3 or higher (i.e. at
 least a GeForce 210, GT 220/40, FX380 LP, 1800M, 370/380M or NVS 2/3100M)
