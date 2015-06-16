@@ -32,6 +32,7 @@
 #include <stdexcept>
 #include <cassert>
 
+#include <thrust/transform_reduce.h>
 #include <thrust/reduce.h>
 #include <thrust/transform.h>
 #include <thrust/for_each.h>

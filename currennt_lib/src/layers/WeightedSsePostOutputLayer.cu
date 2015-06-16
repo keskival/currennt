@@ -27,6 +27,7 @@
 #include "WeightedSsePostOutputLayer.hpp"
 #include "../helpers/getRawPointer.cuh"
 
+#include <thrust/transform_reduce.h>
 #include <thrust/reduce.h>
 #include <thrust/transform.h>
 #include <thrust/iterator/constant_iterator.h>
