@@ -3,7 +3,7 @@ The original CURRENNT project was not maintained anymore and I couldn't get it t
 This fork requires CUDA compute capability of 3.0 or higher, because 1.3 compute capability was not compiling because of updated CUDA SDK headers anymore.
 The latest update of the original CURRENNT project was in 2014-12-10.
 
-All the thanks to the original authors: "feyben", Johannes "johber" Bergmann and Felix "weninger" Weninger!
+All the thanks to the original authors: Bjoern "feyben" Schuller, Johannes "johber" Bergmann and Felix "weninger" Weninger!
 - http://sourceforge.net/u/feyben/profile/
 - http://sourceforge.net/u/johber/profile/
 - http://sourceforge.net/u/weninger/profile/
